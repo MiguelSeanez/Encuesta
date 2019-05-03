@@ -60,7 +60,7 @@
 
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
 					<span class="label-input100">FECHA</span><br>
-					<input class=" bg-color" type="date" name="date" placeholder="Toca">
+					<input class="bg-color" type="date" name="date" placeholder="Toca">
 					<span class="focus-input100"></span>
 				</div>
 
@@ -110,7 +110,7 @@
 					<span class="label-input100">¿Se acordó algún próximo seguimiento? </span>
 					<br>
 					<input type="radio" name="seguimiento" value="si"> Si <br>
-					<span class="label-input100">¿Cuándo? </span> <input class="input100" type="date"
+					<span class="label-input100">¿Cuándo? </span> <input class="bg-color" type="date"
 						name="cuandoseguimiento" placeholder="¿Cuándo?"><br>
 					<input type="radio" name="seguimiento" value="no"> No<br>
 					<span class="focus-input100"></span>
@@ -166,27 +166,35 @@
 					<br>
 					<table>
 						<tr>
-							<strong> Viaje 1</strong>
+							<h4> Viaje 1</h4>
 						</tr>
 						<tr>
 							<th>Viaje </th>
-							<th>Donde</th>
 						</tr>
 						<tr>
 							<td><input type="text" name="viajeunonombre" placeholder="Viaje"></td>
-							<td><input type="text" name="viajeunolugar" placeholder="Donde"></td>
+
 						</tr>
 						<tr>
-							<td><br></td>
+								<th>Donde</th>
 						</tr>
+						<tr>
+								<td><input type="text" name="viajeunolugar" placeholder="Donde"></td>
+							</tr>
+
 						<tr>
 							<th>Costo aprox</th>
-							<th>Motivo emocional</th>
+
 						</tr>
 						<tr>
 							<td><input type="text" name="viajeunocosto" placeholder="Costo"></td>
-							<td><input type="text" name="niajeunomotivo" placeholder="Motivo"></td>
 						</tr>
+						<tr>
+								<th>Motivo emocional</th>
+							</tr>
+							<tr>
+								<td><input type="text" name="viajeunomotivo" placeholder="Motivo"></td>
+							</tr>
 
 					</table>
 
@@ -195,27 +203,33 @@
 					<br>
 					<table>
 						<tr>
-							<strong> Viaje 2</strong>
+							<h4> Viaje 2</h4>
 						</tr>
 						<tr>
 							<th>Viaje </th>
-							<th>Donde</th>
 						</tr>
 						<tr>
 							<td><input type="text" name="viajedosnombre" placeholder="Viaje"></td>
-							<td><input type="text" name="viajedoslugar" placeholder="Donde"></td>
 						</tr>
 						<tr>
-							<td><br></td>
-						</tr>
+								<th>Donde</th>
+							</tr>
+							<tr>
+								<td><input type="text" name="viajedoslugar" placeholder="Donde"></td>
+							</tr>
+
 						<tr>
 							<th>Costo aprox</th>
-							<th>Motivo emocional</th>
 						</tr>
 						<tr>
 							<td><input type="text" name="viajedoscosto" placeholder="Costo"></td>
-							<td><input type="text" name="niajedosmotivo" placeholder="Motivo"></td>
 						</tr>
+						<tr>
+								<th>Motivo emocional</th>
+							</tr>
+							<tr>
+								<td><input type="text" name="viajedosmotivo" placeholder="Motivo"></td>
+							</tr>
 
 					</table>
 				</div>
