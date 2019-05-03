@@ -81,6 +81,11 @@ ul, li {
 	list-style-type: none;
 }
 
+.bg-color{
+  background: #000;
+  color: #fff;
+}
+
 
 /*---------------------------------------------*/
 input {
