@@ -32,10 +32,13 @@
 
 	<div class="container-contact100">
 		<div class="wrap-contact100">
-			<form class="contact100-form validate-form" method="POST" action="complete.php"><img src="images/logo.jpg" alt=""> 
+			<form class="contact100-form validate-form" method="POST">
+			<!-- <form class="contact100-form validate-form" method="POST" action="complete.php"> -->
+				<img src="images/logo.jpg"
+					alt="">
 				<span class="contact100-form-title">
-					  Encuesta   
-				</span> 
+					Encuesta
+				</span>
 
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
 					<span class="label-input100">Nombre</span>
@@ -70,7 +73,7 @@
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
-					<span class="label-input100">¿Cuánto tiempo duro la reunión?  </span>
+					<span class="label-input100">¿Cuánto tiempo duro la reunión? </span>
 					<br>
 					<input type="radio" name="tiempo" value="mas60"> Más de 60 minutos<br>
 					<input type="radio" name="tiempo" value="menos60"> Menos de 60 minutos<br>
@@ -78,15 +81,17 @@
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
-					<span class="label-input100">¿Se hizo o no se hizo una económica? si se hizo ¿de cuánto fue?   </span>
+					<span class="label-input100">¿Se hizo o no se hizo una económica? si se hizo ¿de cuánto fue? </span>
 					<br>
-					<input type="radio" name="economica" value="si"> Si <input class="input100" type="text" name="cuantoeconomica" placeholder="¿de cuánto fue?"><br>
+					<input type="radio" name="economica" value="si"> Si <input class="input100" type="text"
+						name="cuantoeconomica" placeholder="¿de cuánto fue?"><br>
 					<input type="radio" name="economica" value="no"> No<br>
 					<span class="focus-input100"></span>
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
-					<span class="label-input100">Para FTB, ¿viajan internacionalmente de vacaciones por lo menos una vez cada dos años?   </span>
+					<span class="label-input100">Para FTB, ¿viajan internacionalmente de vacaciones por lo menos una vez
+						cada dos años? </span>
 					<br>
 					<input type="radio" name="viajecadadosanos" value=si> Si<br>
 					<input type="radio" name="viajecadadosanos" value="no"> No<br>
@@ -94,66 +99,76 @@
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
-						<span class="label-input100">¿Están dentro del rango de 35 años a 65 años de edad?  </span>
-						<br>
-						<input type="radio" name="rangoedad" value="si"> Si<br>
-						<input type="radio" name="rangoedad" value="no"> No<br>
-						<span class="focus-input100"></span>
+					<span class="label-input100">¿Están dentro del rango de 35 años a 65 años de edad? </span>
+					<br>
+					<input type="radio" name="rangoedad" value="si"> Si<br>
+					<input type="radio" name="rangoedad" value="no"> No<br>
+					<span class="focus-input100"></span>
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
-						<span class="label-input100">¿Se acordó algún próximo seguimiento?   </span>
-						<br>
-						<input type="radio" name="seguimiento" value="si"> Si <br>
-						<span class="label-input100">¿Cuándo?  </span> <input class="input100" type="date" name="cuandoseguimiento" placeholder="¿Cuándo?"><br>
-						<input type="radio" name="seguimiento" value="no"> No<br>
-						<span class="focus-input100"></span>
+					<span class="label-input100">¿Se acordó algún próximo seguimiento? </span>
+					<br>
+					<input type="radio" name="seguimiento" value="si"> Si <br>
+					<span class="label-input100">¿Cuándo? </span> <input class="input100" type="date"
+						name="cuandoseguimiento" placeholder="¿Cuándo?"><br>
+					<input type="radio" name="seguimiento" value="no"> No<br>
+					<span class="focus-input100"></span>
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
-						<span class="label-input100">¿Dieron referidos?</span><br>
-						<label for="ref1">Referido 1</label> <input class="input100" type="text" name="ref1" placeholder="Nombre y teléfono">
-						<label for="ref2">Referido 2</label><input class="input100" type="text" name="ref2" placeholder="Nombre y teléfono">
-						<label for="ref3">Referido 3</label><input class="input100" type="text" name="ref3" placeholder="Nombre y teléfono">
-						<label for="ref4">Referido 4</label><input class="input100" type="text" name="ref4" placeholder="Nombre y teléfono">
-						<span class="focus-input100"></span>
-					
+					<span class="label-input100">¿Dieron referidos?</span><br>
+					<label for="ref1">Referido 1</label> <input class="input100" type="text" name="ref1"
+						placeholder="Nombre y teléfono">
+					<label for="ref2">Referido 2</label><input class="input100" type="text" name="ref2"
+						placeholder="Nombre y teléfono">
+					<label for="ref3">Referido 3</label><input class="input100" type="text" name="ref3"
+						placeholder="Nombre y teléfono">
+					<label for="ref4">Referido 4</label><input class="input100" type="text" name="ref4"
+						placeholder="Nombre y teléfono">
+					<span class="focus-input100"></span>
+
 					<br><br>
 					<p class="label-input100">
-						<strong> Recuerde:</strong> Si hay venta y se obtienen 3 referidos, el comprador recibirá mayor FDB.  El Referido debe ser registrado en OTM 
-					al momento que el asistente de ventas y mercadeo reciba el correo con las respuestas de las preguntas. El referido debe 
-					ser asignado al contacto que generó la cita y debe trabajarlo en no más tardar de 48hr del momento que se le entrega.
+						<strong> Recuerde:</strong> Si hay venta y se obtienen 3 referidos, el comprador recibirá mayor
+						FDB. El Referido debe ser registrado en OTM
+						al momento que el asistente de ventas y mercadeo reciba el correo con las respuestas de las
+						preguntas. El referido debe
+						ser asignado al contacto que generó la cita y debe trabajarlo en no más tardar de 48hr del
+						momento que se le entrega.
 					</p>
-				</div>	
-
-				<div class="wrap-input100 validate-input" data-validate="Name is required">
-						<span class="label-input100">¿Mi historia?  </span>
-						<br>
-						<input type="radio" name="historia" value="si"> Si<br>
-						<input type="radio" name="historia" value="no"> No<br>
-						<span class="focus-input100"></span>
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
-						<span class="label-input100">Intención: “Si” al producto, y “Si” al hoy (Mejora, Ahorra, Garantiza)  </span>
-						<br>
-						<input type="radio" name="intencion" value="si"> Si<br>
-						<input type="radio" name="intencion" value="no"> No<br>
-						<span class="focus-input100"></span>
+					<span class="label-input100">¿Mi historia? </span>
+					<br>
+					<input type="radio" name="historia" value="si"> Si<br>
+					<input type="radio" name="historia" value="no"> No<br>
+					<span class="focus-input100"></span>
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
-						<span class="label-input100">Descubrimiento real: 2 viajes reales con el costo de cada uno y el motivo emocional de cada viaje. </span>
-						<br>
-						<input type="radio" name="descubrimiento" value="si"> Si hice descubrimiento<br>
-						<input type="radio" name="descurbimiento" value="no"> No hice descubrimiento<br>
-						<span class="focus-input100"></span>
-						<br>
-						<table>
-							<tr>
-								<h4> Viaje 1</h4>
-							</tr>
-							<tr>
+					<span class="label-input100">Intención: “Si” al producto, y “Si” al hoy (Mejora, Ahorra, Garantiza)
+					</span>
+					<br>
+					<input type="radio" name="intencion" value="si"> Si<br>
+					<input type="radio" name="intencion" value="no"> No<br>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100">Descubrimiento real: 2 viajes reales con el costo de cada uno y el
+						motivo emocional de cada viaje. </span>
+					<br>
+					<input type="radio" name="descubrimiento" value="si"> Si hice descubrimiento<br>
+					<input type="radio" name="descurbimiento" value="no"> No hice descubrimiento<br>
+					<span class="focus-input100"></span>
+					<br>
+					<table>
+						<tr>
+							<strong> Viaje 1</strong>
+						</tr>
+						<tr>
 							<th>Viaje </th>
 							<th>Donde</th>
 						</tr>
@@ -161,7 +176,9 @@
 							<td><input type="text" name="viajeunonombre" placeholder="Viaje"></td>
 							<td><input type="text" name="viajeunolugar" placeholder="Donde"></td>
 						</tr>
-						<tr> <td><br></td></tr>
+						<tr>
+							<td><br></td>
+						</tr>
 						<tr>
 							<th>Costo aprox</th>
 							<th>Motivo emocional</th>
@@ -170,17 +187,17 @@
 							<td><input type="text" name="viajeunocosto" placeholder="Costo"></td>
 							<td><input type="text" name="niajeunomotivo" placeholder="Motivo"></td>
 						</tr>
-						
-						</table>
 
-						
-						<!-- Table 2 -->
-						<br>
-						<table>
-							<tr>
-								<h4> Viaje 2</h4>
-							</tr>
-							<tr>
+					</table>
+
+
+					<!-- Table 2 -->
+					<br>
+					<table>
+						<tr>
+							<strong> Viaje 2</strong>
+						</tr>
+						<tr>
 							<th>Viaje </th>
 							<th>Donde</th>
 						</tr>
@@ -188,7 +205,9 @@
 							<td><input type="text" name="viajedosnombre" placeholder="Viaje"></td>
 							<td><input type="text" name="viajedoslugar" placeholder="Donde"></td>
 						</tr>
-						<tr> <td><br></td></tr>
+						<tr>
+							<td><br></td>
+						</tr>
 						<tr>
 							<th>Costo aprox</th>
 							<th>Motivo emocional</th>
@@ -197,38 +216,42 @@
 							<td><input type="text" name="viajedoscosto" placeholder="Costo"></td>
 							<td><input type="text" name="niajedosmotivo" placeholder="Motivo"></td>
 						</tr>
-						
-						</table>
+
+					</table>
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
-						<span class="label-input100">Valorización del viaje: ¿se hizo la comparación entre el costo estimado y el costo en mantenimiento?  </span>
-						<br>
-						<input type="radio" name="valorizacion" value="si"> Si<br>
-						<input type="radio" name="valorizacion" value="no"> No<br>
-						<span class="focus-input100"></span>
+					<span class="label-input100">Valorización del viaje: ¿se hizo la comparación entre el costo estimado
+						y el costo en mantenimiento? </span>
+					<br>
+					<input type="radio" name="valorizacion" value="si"> Si<br>
+					<input type="radio" name="valorizacion" value="no"> No<br>
+					<span class="focus-input100"></span>
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
-						<span class="label-input100">¿Se hizo Rent vs. Own? ¿Que “Anyway $$$” tenía y por cuantos años? </span>
-						<br>
-						<input type="radio" name="sehizo" value="si"> Si<br>
-						<input type="radio" name="sehizo" value="no"> No<br>
-						<span class="focus-input100"></span>
-<br>
-						<table>
-							<tr>
-								<td>Que Anyway $$$ tenía</td>
-								<td><input type="text" name="anyway" placeholder="Inserte el valor del Anyway $$$"></td>
-							</tr>
-							<tr>
-									<td>Por cuantos años</td>
-									<td><input type="text" name="anios" placeholder="Inserte número de años"></td>
-								</tr>
-						</table>
+					<span class="label-input100">¿Se hizo Rent vs. Own? ¿Que “Anyway $$$” tenía y por cuantos años?
+					</span>
+					<br>
+					<input type="radio" name="sehizo" value="si"> Si<br>
+					<input type="radio" name="sehizo" value="no"> No<br>
+					<span class="focus-input100"></span>
+					<br>
+					<table>
+						<tr>
+							<td>Que Anyway $$$ tenía</td>
+							<td><input type="text" name="anyway" placeholder="Inserte el valor del Anyway $$$"></td>
+						</tr>
+						<tr>
+							<br>
+							<br>
+							<td>Por cuantos años</td>
+							<td><input type="text" name="anios" placeholder="Inserte número de años"></td>
+						</tr>
+					</table>
 				</div>
-				
-				
+
+
 
 				<div class="wrap-input100 validate-input" data-validate="Message is required">
 					<span class="label-input100">Describir la secuencia de cierre.</span>
@@ -238,23 +261,24 @@
 
 
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
-						<span class="label-input100">Objeción final y real en caso de no venta/motivo de la compra en caso de éxito </span>
-						<span class="focus-input100"></span>
-						<br>
-<br>
-						<table>
-							<tr>
-								<td>VENTA- MOTIVO DE COMPRA</td>
-								<td><input type="text" name="anyway" placeholder="Pulse aquí para escribir."></td>
-							</tr>
-							<tr>
-								<td><br></td>
-							</tr>
-							<tr>
-									<td>NO VENTA- OBJECION FINAL</td>
-									<td><input type="text" name="anios" placeholder="Pulse aquí para escribir."></td>
-								</tr>
-						</table>
+					<span class="label-input100">Objeción final y real en caso de no venta/motivo de la compra en caso
+						de éxito </span>
+					<span class="focus-input100"></span>
+					<br>
+					<br>
+					<table>
+						<tr>
+							<td>VENTA- MOTIVO DE COMPRA </td>
+							<td><input type="text" name="anyway" placeholder="Pulse aquí para escribir."></td>
+						</tr>
+						<tr>
+							<td><br></td>
+						</tr>
+						<tr>
+							<td>NO VENTA- OBJECION FINAL</td>
+							<td><input type="text" name="anios" placeholder="Pulse aquí para escribir."></td>
+						</tr>
+					</table>
 				</div>
 
 				<div class="container-contact100-form-btn">
