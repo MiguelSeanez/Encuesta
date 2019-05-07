@@ -33,7 +33,7 @@
 	<div class="container-contact100">
 		<div class="wrap-contact100">
 			<form class="contact100-form validate-form" method="POST">
-			<!-- <form class="contact100-form validate-form" method="POST" action="complete.php"> -->
+				<!-- <form class="contact100-form validate-form" method="POST" action="complete.php"> -->
 				<img src="images/logo.jpg" width="40%" class="wrap-contact100 img-logo" alt="">
 				<span class="contact100-form-title">
 					Encuesta
@@ -58,9 +58,10 @@
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
-					<span class="label-input100">FECHA</span><br>
+					<span class="label-input100">Fecha cita</span><br>
 					<!-- <input class="bg-color" type="date" name="date" placeholder="Toca"> -->
-					<input placeholder="Elige la fecha" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date">
+					<input placeholder="Elige la fecha" class="textbox-n input100" type="text"
+						onfocus="(this.type='date')" onblur="(this.type='text')" id="date">
 					<span class="focus-input100"></span>
 				</div>
 
@@ -75,44 +76,48 @@
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
 					<span class="label-input100">¿Cuánto tiempo duro la reunión? </span>
 					<br>
-					<input type="radio" name="tiempo" value="mas60"> Más de 60 minutos<br>
-					<input type="radio" name="tiempo" value="menos60"> Menos de 60 minutos<br>
+					<input type="text" placeholder="Tiempo" name="tiempo" class="input100"> <br>
 					<span class="focus-input100"></span>
 				</div>
 
-				<div class="wrap-input100 validate-input" data-validate="Name is required">
+				<!-- <div class="wrap-input100 validate-input" data-validate="Name is required">
 					<span class="label-input100">¿Se hizo o no se hizo una económica? si se hizo ¿de cuánto fue? </span>
 					<br>
 					<input type="radio" name="economica" value="si"> Si <input class="input100" type="text"
 						name="cuantoeconomica" placeholder="¿de cuánto fue?"><br>
 					<input type="radio" name="economica" value="no"> No<br>
 					<span class="focus-input100"></span>
-				</div>
+				</div> -->
 
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
 					<span class="label-input100">Para FTB, ¿viajan internacionalmente de vacaciones por lo menos una vez
 						cada dos años? </span>
 					<br>
 					<input type="radio" name="viajecadadosanos" value=si> Si<br>
+					<span class="label-input100">¿Dónde? </span>
+					<input placeholder="Donde" type="text" class="input100"> <br>
+
 					<input type="radio" name="viajecadadosanos" value="no"> No<br>
+
 					<span class="focus-input100"></span>
 				</div>
 
-				<div class="wrap-input100 validate-input" data-validate="Name is required">
+				<!-- <div class="wrap-input100 validate-input" data-validate="Name is required">
 					<span class="label-input100">¿Están dentro del rango de 35 años a 65 años de edad? </span>
 					<br>
 					<input type="radio" name="rangoedad" value="si"> Si<br>
 					<input type="radio" name="rangoedad" value="no"> No<br>
 					<span class="focus-input100"></span>
-				</div>
+				</div> -->
 
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
 					<span class="label-input100">¿Se acordó algún próximo seguimiento? </span>
 					<br>
 					<input type="radio" name="seguimiento" value="si"> Si <br>
-					 <span class="label-input100">¿Cuándo? </span> 
-					 <input placeholder="Elige la fecha" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date">
-					 <!--<input class="bg-color" type="date"
+					<span class="label-input100">¿Cuándo? </span>
+					<input placeholder="Elige la fecha" class="input100 textbox-n" type="text"
+						onfocus="(this.type='date')" onblur="(this.type='text')" id="date">
+					<!--<input class="bg-color" type="date"
 						name="cuandoseguimiento" placeholder="¿Cuándo?"> --><br>
 					<input type="radio" name="seguimiento" value="no"> No<br>
 					<span class="focus-input100"></span>
@@ -144,8 +149,10 @@
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
 					<span class="label-input100">¿Mi historia? </span>
 					<br>
-					<input type="radio" name="historia" value="si"> Si<br>
-					<input type="radio" name="historia" value="no"> No<br>
+					<input type="radio" name="historiaR" value="si"> Si <br>
+					<span>¿Cuál? </span>
+					<input type="text" name="historia" placeholder="Escriba su historia" class="input100"> <br>
+					<input type="radio" name="historiaR" value="no"> No <br>
 					<span class="focus-input100"></span>
 				</div>
 
@@ -155,6 +162,7 @@
 					<br>
 					<input type="radio" name="intencion" value="si"> Si<br>
 					<input type="radio" name="intencion" value="no"> No<br>
+					<input type="text" name="intencioncliente" placeholder="Respuesta del cliente" class="input100">
 					<span class="focus-input100"></span>
 				</div>
 
@@ -162,8 +170,8 @@
 					<span class="label-input100">Descubrimiento real: 2 viajes reales con el costo de cada uno y el
 						motivo emocional de cada viaje. </span>
 					<br>
-					<input type="radio" name="descubrimiento" value="si"> Si hice descubrimiento<br>
-					<input type="radio" name="descurbimiento" value="no"> No hice descubrimiento<br>
+					<!-- <input type="radio" name="descubrimiento" value="si"> Si hice descubrimiento<br>
+					<input type="radio" name="descurbimiento" value="no"> No hice descubrimiento<br> -->
 					<span class="focus-input100"></span>
 					<br>
 					<table>
@@ -178,11 +186,19 @@
 
 						</tr>
 						<tr>
-								<th>Donde</th>
+							<th>Donde</th>
 						</tr>
 						<tr>
-								<td><input type="text" name="viajeunolugar" placeholder="Donde"></td>
-							</tr>
+							<td><input type="text" name="viajeunolugar" placeholder="Donde"></td>
+						</tr>
+
+						<tr>
+						<tr>
+							<th>Cuando</th>
+						</tr>
+						<tr>
+							<td><input type="text" name="viajeunocuando" placeholder="Cuando"></td>
+						</tr>
 
 						<tr>
 							<th>Costo aprox</th>
@@ -192,11 +208,11 @@
 							<td><input type="text" name="viajeunocosto" placeholder="Costo"></td>
 						</tr>
 						<tr>
-								<th>Motivo emocional</th>
-							</tr>
-							<tr>
-								<td><input type="text" name="viajeunomotivo" placeholder="Motivo"></td>
-							</tr>
+							<th>Motivo emocional</th>
+						</tr>
+						<tr>
+							<td><input type="text" name="viajeunomotivo" placeholder="Motivo"></td>
+						</tr>
 
 					</table>
 
@@ -214,11 +230,17 @@
 							<td><input type="text" name="viajedosnombre" placeholder="Viaje"></td>
 						</tr>
 						<tr>
-								<th>Donde</th>
-							</tr>
-							<tr>
-								<td><input type="text" name="viajedoslugar" placeholder="Donde"></td>
-							</tr>
+							<th>Donde</th>
+						</tr>
+						<tr>
+							<td><input type="text" name="viajedoslugar" placeholder="Donde"></td>
+						</tr>
+						<tr>
+							<th>Cuando</th>
+						</tr>
+						<tr>
+							<td><input type="text" name="viajedoscuando" placeholder="Cuando"></td>
+						</tr>
 
 						<tr>
 							<th>Costo aprox</th>
@@ -227,11 +249,11 @@
 							<td><input type="text" name="viajedoscosto" placeholder="Costo"></td>
 						</tr>
 						<tr>
-								<th>Motivo emocional</th>
-							</tr>
-							<tr>
-								<td><input type="text" name="viajedosmotivo" placeholder="Motivo"></td>
-							</tr>
+							<th>Motivo emocional</th>
+						</tr>
+						<tr>
+							<td><input type="text" name="viajedosmotivo" placeholder="Motivo"></td>
+						</tr>
 
 					</table>
 				</div>
@@ -240,19 +262,18 @@
 					<span class="label-input100">Valorización del viaje: ¿se hizo la comparación entre el costo estimado
 						y el costo en mantenimiento? </span>
 					<br>
-					<input type="radio" name="valorizacion" value="si"> Si<br>
-					<input type="radio" name="valorizacion" value="no"> No<br>
+					<span class="">Costo: </span> <input type="text" name="descurbimientocosto" placeholder="Costo">
+					<p> VS </p>
+					<span class="">Mantenimiento: </span> <input type="text" name="descubrimientomantenimiento"
+						placeholder="Mantenimiento"><br>
 					<span class="focus-input100"></span>
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
 					<span class="label-input100">¿Se hizo Rent vs. Own? ¿Que “Anyway $$$” tenía y por cuantos años?
 					</span>
-					<br>
-					<input type="radio" name="sehizo" value="si"> Si<br>
-					<input type="radio" name="sehizo" value="no"> No<br>
-					<span class="focus-input100"></span>
-					<br>
+					<!-- <input type="radio" name="sehizo" value="si"> Si<br>
+					<input type="radio" name="sehizo" value="no"> No<br> -->
 					<table>
 						<tr>
 							<td>Que Anyway $$$ tenía</td>
@@ -264,7 +285,7 @@
 							<td>Por cuantos años</td>
 							<td><input type="text" name="anios" placeholder="Inserte número de años"></td>
 						</tr>
-					</table>
+					</table><span class="focus-input100"></span>
 				</div>
 
 
