@@ -34,8 +34,7 @@
 		<div class="wrap-contact100">
 			<form class="contact100-form validate-form" method="POST">
 			<!-- <form class="contact100-form validate-form" method="POST" action="complete.php"> -->
-				<img src="images/logo.jpg"
-					alt="">
+				<img src="images/logo.jpg" width="40%" class="wrap-contact100 img-logo" alt="">
 				<span class="contact100-form-title">
 					Encuesta
 				</span>
@@ -60,7 +59,8 @@
 
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
 					<span class="label-input100">FECHA</span><br>
-					<input class="bg-color" type="date" name="date" placeholder="Toca">
+					<!-- <input class="bg-color" type="date" name="date" placeholder="Toca"> -->
+					<input placeholder="Elige la fecha" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date">
 					<span class="focus-input100"></span>
 				</div>
 
@@ -110,8 +110,10 @@
 					<span class="label-input100">¿Se acordó algún próximo seguimiento? </span>
 					<br>
 					<input type="radio" name="seguimiento" value="si"> Si <br>
-					<span class="label-input100">¿Cuándo? </span> <input class="bg-color" type="date"
-						name="cuandoseguimiento" placeholder="¿Cuándo?"><br>
+					 <span class="label-input100">¿Cuándo? </span> 
+					 <input placeholder="Elige la fecha" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date">
+					 <!--<input class="bg-color" type="date"
+						name="cuandoseguimiento" placeholder="¿Cuándo?"> --><br>
 					<input type="radio" name="seguimiento" value="no"> No<br>
 					<span class="focus-input100"></span>
 				</div>

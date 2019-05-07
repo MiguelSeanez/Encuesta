@@ -143,6 +143,20 @@ iframe {
 	max-width: 1200px;
 }
 
+.img-logo{
+  justify-content: center;
+  align-items: center;
+  padding: 42px 55px 45px 55px;
+  overflow: hidden;
+}
+
+input[type="date"]
+{
+    display:block;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    min-height: 1.2em;
+}
 
 
 
@@ -177,6 +191,7 @@ iframe {
   overflow: hidden;
   padding: 42px 55px 45px 55px;
 }
+
 
 
 /*------------------------------------------------------------------
@@ -363,6 +378,9 @@ textarea.input100 {
 @media (max-width: 576px) {
   .wrap-contact100 {
     padding: 72px 15px 65px 15px;
+  }
+  .img-logo { 
+    width: 100%;
   }
 }
 
